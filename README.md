@@ -1,2 +1,2 @@
-# Newport-CPC
+# NHSCPC Website
 Club website
