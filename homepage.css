@@ -1,14 +1,35 @@
-body {
-
-  font-family: Verdana, Arial, Calibri, Sans-serif;
-
+* {
+	box-sizing: border-box;
 }
-
+:root {
+	--primary-color: blanchedalmond;
+	--background-color: #3B3631;
+	--text-color: #2C231B;
+}
+body {
+	background-color: var(--background-color);
+	color: var(--text-color);
+	margin: 0;
+	font-size: 18px;
+	font-family: Verdana, Arial, Calibri, sans-serif;
+}
+hr {
+	border-style: solid;
+	color: var(--text-color);
+}
+b {
+	font-size: 1.2em;
+	font-weight: bold;
+}
+/* Layout */
 header {
-
-  background-color: rgb(150, 150, 150);
-  color: white;
-  padding: 30px;
-  text-align: left;
-
+	background-color: var(--primary-color);
+	padding: 30px;
+	line-height: 1.25;
+	text-align: center;
+}
+main {
+	background-color: var(--primary-color);
+	width: 80%;
+	padding: 20px;
 }
