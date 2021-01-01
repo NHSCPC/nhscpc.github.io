@@ -1,17 +1,17 @@
 * {
 	box-sizing: border-box;
+	font-family: Verdana, Arial, Calibri, sans-serif;
 }
 :root {
-	--primary-color: blanchedalmond;
 	--background-color: #3B3631;
+	--primary-color: blanchedalmond;
 	--text-color: #2C231B;
 }
 body {
-	background-color: var(--background-color);
-	color: var(--text-color);
+	background-color: var(--primary-color);
 	margin: 0;
+	color: var(--text-color);
 	font-size: 18px;
-	font-family: Verdana, Arial, Calibri, sans-serif;
 }
 hr {
 	border-style: solid;
@@ -23,13 +23,13 @@ b {
 }
 /* Layout */
 header {
-	background-color: var(--primary-color);
+	background-color: var(--background-color);
 	padding: 30px;
 	line-height: 1.25;
 	text-align: center;
+	color: var(--primary-color);
 }
 main {
 	background-color: var(--primary-color);
-	width: 80%;
 	padding: 20px;
 }
